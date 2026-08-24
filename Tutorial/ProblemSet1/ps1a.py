@@ -1,7 +1,7 @@
 # ====================================
 # Declaration part: 
 # Mind the "magic numbers" in the code below, they are constants that are given in the problem description.
-portion_down_payment=0.25
+portion_down_payment=0.25 # Global variable
 current_savings=0
 r=0.04
 
@@ -17,7 +17,7 @@ total_cost=float(input("At last, please enter the price of your dream house: "))
 # money_rightnow=0
 # ====================================
 
-month=0
+month=0 # Local variable 
 
 # ====================================
 # Using the variable defined before. 

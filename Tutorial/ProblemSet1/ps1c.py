@@ -134,6 +134,8 @@ while ((current_savings>total_cost*portion_down_payment+error) or
         low_rate=current_rate
         # low_rate=guess_rate
         # ====================================
+    
+    print("Current iteration: ", step, "; Current rate: ", current_rate)
 
 # ====================================
 # Use the suitable name for the variable
