@@ -6,6 +6,7 @@ def is_even_with_return( i ):
     """ 
     Input: i, a positive int
     Returns True if i is even, otherwise False
+    Int -> Bool
     """
     print('with return')
     remainder = i % 2
@@ -18,6 +19,7 @@ def is_even_without_return( i ):
     """ 
     Input: i, a positive int
     Does not return anything
+    Int
     """
     print('without return')
     remainder = i % 2
@@ -30,6 +32,7 @@ def is_even( i ):
     """ 
     Input: i, a positive int
     Returns True if i is even, otherwise False
+    Int -> Bool
     """
     remainder = i % 2
     return remainder == 0
