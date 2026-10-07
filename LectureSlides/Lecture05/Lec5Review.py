@@ -110,3 +110,40 @@
 # print(L, a1)
 # a1 = L.pop()
 # print(L, a1)
+
+
+# L = [3, 5, 1, 2]
+# a = L.remove(3)
+# print(a)
+# print(L)
+
+# b = L.append(3)
+# print(b)
+
+
+# L = [3, 5, 1, 2]
+# a = L.pop()
+# print("L is", L)
+# print("pop() is", a)
+
+
+# # From smaller to bigger
+# def bubble_sort(L):
+#     for j in range(len(L)):
+#         for i in range(len(L) - 1 - j):
+#             if L[i] > L[i + 1]:
+#                 # tmp = L[i + 1]
+#                 # L[i + 1] = L[i]
+#                 # L[i] = tmp
+#                 L[i], L[i + 1] = L[i + 1], L[i] 
+#                 print(L)
+#     return L
+
+# L = [9, 5, 6, 0, 4, 1, 3, 2]
+# print(bubble_sort(L))
+
+
+a = 1 
+b = a 
+a = 2
+print(a, b)
