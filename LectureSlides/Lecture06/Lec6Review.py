@@ -128,7 +128,8 @@ print(fib_list(5))
 # Bob = {
 #     "Age": 20,
 #     "Gender": "Male",
-#     "Grades": Bob_Info
+#     "Grades": Bob_Info,
+#     "Salary": 1000,
 # }
 
 # students = [Alice, Bob]
