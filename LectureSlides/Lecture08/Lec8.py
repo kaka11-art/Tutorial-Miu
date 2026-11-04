@@ -70,6 +70,9 @@ print(float(b.inverse()))
 ##c = Fraction(3.14, 2.7) # assertion error
 ##print a*b # error, did not define how to multiply two Fraction objects
 
+print(type(c))
+print(type(float(c)))
+
 
 ##############
 ## EXAMPLE: a set of integers as class
@@ -113,11 +116,17 @@ print(s)
 s.insert(3)
 s.insert(4)
 s.insert(3)
-print(s)
+
+print(s) # "{3,4}"
+
 s.member(3)
 s.member(5)
 s.insert(6)
+
 print(s)
-#s.remove(3)  # leads to an error
+
+s.remove(3)  # leads to an error
+
 print(s)
+
 s.remove(3)
